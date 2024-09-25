@@ -24,7 +24,7 @@ Sistem Gudang adalah aplikasi manajemen gudang sederhana yang dibangun dengan La
 1. Clone Repository
 Clone repository ini ke lokal atau server Anda:
 >git clone https://github.com/wewaits/sistem-gudang.git
-cd sistem-gudang
+>cd sistem-gudang
 
 2. Salin File .env
 Salin file .env.example menjadi .env dan sesuaikan dengan konfigurasi Anda:
@@ -70,14 +70,13 @@ Pastikan server memiliki Docker dan Docker Compose terinstal.
 2. Salin Project ke Server
 Clone project ke server atau gunakan scp untuk mengirim file project dari lokal ke server:
 >git clone https://github.com/yourusername/sistem-gudang.git
-cd sistem-gudang
+>cd sistem-gudang
 
 3. Perbarui Konfigurasi .env
 Sesuaikan konfigurasi di file .env untuk production:
 >APP_ENV=production
 APP_DEBUG=false
 APP_URL=https://your-production-domain.com
-
 DB_CONNECTION=mysql
 DB_HOST=mysql
 DB_PORT=3306
